@@ -17,6 +17,7 @@ class ScientificCalculatorServiceTest {
 
    @Test
    void calculateFactorial() {
+
       assertEquals(BigInteger.ONE, _scientificCalculatorService.calculateFactorial(0));
       assertEquals(BigInteger.ONE, _scientificCalculatorService.calculateFactorial(1));
       assertEquals(BigInteger.TWO, _scientificCalculatorService.calculateFactorial(2));

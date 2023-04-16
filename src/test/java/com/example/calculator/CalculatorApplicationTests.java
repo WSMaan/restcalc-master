@@ -9,6 +9,7 @@ class CalculatorApplicationTests {
 
    @Test
    void contextLoads() {
+      System.out.println("ABc");
    }
 
 }
