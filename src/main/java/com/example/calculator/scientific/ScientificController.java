@@ -21,6 +21,7 @@ public class ScientificController {
    private final ScientificCalculatorService _scientificCalculator;
 
    public ScientificController( ScientificCalculatorService scientificCalculator) {
+      System.out.println("Feature-123 addition");
       _scientificCalculator = scientificCalculator;
    }
 
